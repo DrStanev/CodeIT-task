@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+ padding: 3.5rem;
+ max-width: 1140px;
+ min-width: 320px;
+}
+
+/* header */
+
+.firstRow {
+ padding-bottom: 2rem;
+}
+
+.logo {
+ text-align: center;
+}
+
+.mainLogo {
+ font-weight: bolder;
+ color: #ff0000;
+}
+
+.mainLogo:first-child::first-letter {
+ text-decoration: underline;
+}
+
+.mainLogo > :last-child {
+ color: #000000;
+}
+
+.scdLogo {
+ font-size: .55rem;
+ letter-spacing: .3rem;
+ font-weight: bold;
+}
+
+.navbar-brand {
+ font-size: .65rem;
+ text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+ color: #ff0000;
+}
+
+.shoppingBag {
+ padding: .5rem;
+ border: 2px double #000000;
+ width: 6rem;
+}
+
+.shoppingBag i {
+ color: #ff0000;
+}
+
+.searchForm {
+ width: 7rem;
+}
+
+.searchForm i {
+ position: absolute;
+ padding: .5rem;
+}
+
+.searchForm input {
+ width: 100%;
+ text-align: center;
+ border: none;
+}
+
+.searchForm input:focus {
+  -webkit-box-shadow: 1px -1px 192px 19px rgba(158, 158, 158, 1);
+  -moz-box-shadow: 1px -1px 192px 19px rgba(158, 158, 158, 1);
+  box-shadow: 1px -1px 192px 19px rgba(158, 158, 158, 1);;
+}
+
+.secondRow {
+ height: 8rem;
+ background-image: url("./Images/pexels-jana-kukebal-6496462.jpg");
+ background-size: cover;
+ align-items: center;
+ text-align: center;
+ margin-bottom: 3rem;
+}
+
+.breadcrumb {
+ justify-content: center;
+}
+
+.breadcrumb a {
+ text-decoration: none;
+ color: #000000;
+}
+
+/* main */
+
+.main {
+ padding-bottom: 3rem;
+ border-bottom: 1px solid rgba(158, 158, 158, .2);
+ ;
+}
+
+.clearButton {
+ margin-bottom: 2rem;
+}
+
+.clearButton button {
+ float: right;
+}
+
+.shop-items {
+ justify-content: center;
+ gap: 1.5rem;
+ padding-bottom: 2rem;
+}
+
+.shop-item {
+ border: 1px solid rgba(158, 158, 158, .2);
+ text-align: center;
+}
+
+.details {
+ display: flex;
+ flex-direction: column;
+ padding: 1rem 1rem 0 1rem;
+ gap: .5rem;
+ text-align: center;
+ width: 100%;
+}
+
+.phonePrice {
+ color: #ff0000;
+}
+
+.addRemove i {
+ border: 1px solid rgba(158, 158, 158, .2);
+ padding: .3rem;
+}
+
+/* Pagination */
+
+.shop-items .shop-item.hide {
+ display: none;
+}
+
+.shop-items .shop-item.show {
+ display: block;
+ animation: show .5s ease;
+}
+
+@keyframes show {
+ 0% {
+  opacity: 0;
+  transform: scale(0.9);
+ }
+
+ 100% {
+  opacity: 1;
+  transform: scale(1);
+ }
+}
+
+.pagination {
+ width: 30%;
+ padding: 15px;
+ text-align: center;
+}
+
+.pagination div {
+ margin: 0 10px;
+ padding: 7px 15px;
+}
+
+.pagination .page {
+ color: gray;
+}
+
+.pagination .prev,
+.pagination .next {
+ color: #000;
+ border: 1px solid #000;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.pagination .prev.disabled,
+.pagination .next.disabled {
+ border-color: gray;
+ color: gray;
+ pointer-events: none;
+}
+
+/* Footer */
+
+.footer {
+ padding-top: 3rem;
+}
+
+.footerOne {
+ border: 2px solid #000000;
+ position: relative;
+ padding: 1.5rem;
+ margin-bottom: 3rem;
+}
+
+.footerOne::after {
+ content: "";
+ display: block;
+ position: absolute;
+ width: 90%;
+ border: 3px solid #fff;
+ left: 3rem;
+ top: -5px;
+}
+
+.footerOneIcon {
+ width: 100%;
+ position: relative;
+ padding-left: 22px;
+ margin-bottom: 0;
+}
+
+.footerOneIcon i {
+ position: absolute;
+ left: 0;
+}
+
+.footerOne span {
+ font-size: .7rem;
+}
+
+.footerOne a:focus {
+ border: none;
+}
+
+.collapsed {
+ padding: 0;
+}
+
+#collapseExample {
+ font-size: .7rem;
+}
+
+.footerTwo {
+ font-size: .7rem;
+ height: 7rem;
+ border-top: 2px solid rgb(180, 179, 179);
+}
+
+#form1 {
+ font-size: .6rem;
+}
+
+.footerIcons {
+ font-size: .8rem;
+ color: rgb(94, 93, 93);
+}
+
+.footerIcons a {
+ padding: .7rem;
+ border: 1px solid rgb(160, 159, 159);
+}
+
+.footerIcons a:hover {
+ background-color: #fa7d7d;
+}
+
+.footerThree {
+ font-size: .55rem;
+ height: 5rem;
+ background-color: rgb(199, 198, 198);
+ overflow: hidden;
+}
+
+.footerThree p {
+ color: rgb(148, 147, 147);
+ margin: 0;
+}
+
+.footerThree strong {
+ color: #000000;
+}
+
+.creditCardIcons img {
+ height: 1.7rem;
+ width: 1.7rem;
+ background-color: #fff;
+ margin: .1rem;
+}
+
+.footerThree div {
+ animation: moveSlideshow 20s linear infinite;
+}
+
+@keyframes moveSlideshow {
+ 50% {
+  transform: translateX(-200%);
+ }
+}
+
+
+

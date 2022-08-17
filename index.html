@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeIT</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7f3acbe42d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row firstRow">
+          <div class="col-md-3">
+            <div class="row logo">
+              <dt class="col-12 mainLogo"><span>Code</span><span>IT</span></dt>
+              <dt class="col-12 scdLogo">STORE</dt>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <nav class="navbar navbar-expand-md bg-white" id="mainNav">
+              <div class="container">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="navbar-brand" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="navbar-brand dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        All brands
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Iphone</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Samsung</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Xiaomi</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand" href="#">Latest</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand" href="#">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="form searchForm">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="form-control-sm form-input" />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-2">
+            <span
+              class="placeholder col-6 bg-white justify-content-center shoppingBag"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+              $ 999
+            </span>
+          </div>
+        </div>
+        <div class="row secondRow">
+          <div class="row justify-content-between">
+            <div class="col-4"><h4>My wishlist</h4></div>
+            <div class="col-4 navBreadCrumb">
+              <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    My wishlist
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="row">
+          <div class="col-11 clearButton">
+            <button type="button" class="btn btn-outline-secondary">
+              Clear list
+            </button>
+          </div>
+        </div>
+        <div class="row row-cols-5 shop-items">
+          <div class="col shop-item">
+            <img src="Images/1.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone one</h5>
+              <h5 class="phonePrice">$123.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/2.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone two</h5>
+              <h5 class="phonePrice">$213.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/3.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone three</h5>
+              <h5 class="phonePrice">$321.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/4.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone four</h5>
+              <h5 class="phonePrice">$132.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/5.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone five</h5>
+              <h5 class="phonePrice">$423.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/6.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone six</h5>
+              <h5 class="phonePrice">$513.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/7.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone seven</h5>
+              <h5 class="phonePrice">$321.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/8.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone eight</h5>
+              <h5 class="phonePrice">$332.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/1.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone one</h5>
+              <h5>$123.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/2.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone two</h5>
+              <h5>$213.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/3.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone three</h5>
+              <h5>$321.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/4.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone four</h5>
+              <h5>$132.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/5.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone five</h5>
+              <h5>$423.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/6.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone six</h5>
+              <h5>$513.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/7.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone seven</h5>
+              <h5>$321.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col shop-item">
+            <img src="Images/8.jpg" class="img-fluid" alt="" />
+            <div class="details">
+              <h5>Phone eight</h5>
+              <h5>$332.00</h5>
+              <div class="addRemove">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2 pagination">
+            <div class="prev">Prev</div>
+            <div class="page">Page <span class="page-num"></span></div>
+            <div class="next">Next</div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="row justify-content-center footerOne">
+          <div class="col-lg-2">
+            <p class="footerOneIcon">
+              <i class="fa-solid fa-thumbs-up"></i>
+              <strong>FULL WARRENTY</strong>
+              <span>Read About Our Warrenty</span>
+            </p>
+            <a
+              class="btn collapsed"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              ...
+            </a>
+            <p class="collapse" id="collapseExample">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum,
+              aperiam.
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <p class="footerOneIcon">
+              <i class="fa-solid fa-truck"></i>
+              <strong>EXPRESS SHIPPING</strong>
+              <span>Local & International Shipping</span>
+            </p>
+            <a
+              class="btn collapsed"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              ...
+            </a>
+            <p class="collapse" id="collapseExample">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum,
+              aperiam.
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <p class="footerOneIcon">
+              <i class="fa-solid fa-comment-dots"></i>
+              <strong>MOBILE BLOG</strong>
+              <span>Discuss Your Favourite Phone</span>
+            </p>
+            <a
+              class="btn collapsed"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              ...
+            </a>
+            <p class="collapse" id="collapseExample">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum,
+              aperiam.
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <p class="footerOneIcon">
+              <i class="fa-solid fa-headset"></i>
+              <strong>24/7 SUPPORT</strong>
+              <span>Get Full Support via Chat</span>
+            </p>
+            <a
+              class="btn collapsed"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              ...
+            </a>
+            <p class="collapse" id="collapseExample">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum,
+              aperiam.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center bg-light align-items-center footerTwo">
+          <div class="col-md-4 d-lg-block">
+            <span
+              >SUBBSCRIBE ON LATEST SMARTPHONES NEWS & GREAT DEALS WE
+              OFFER:</span
+            >
+          </div>
+          <div class="col-md-4 form-outline emailForm">
+            <input
+              type="search"
+              id="form1"
+              class="form-control"
+              placeholder="ENTER YOUR EMAIL ADDRESS... "
+              aria-label="Search"
+            />
+          </div>
+          <div class="col-md-4 footerIcons">
+            <a href="#" class="text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="row text-center align-items-center justify-content-between footerThree"
+        >
+          <div class="col-md-4 align-items-center">
+            <p>
+              COPYRIGHT <i class="fa-regular fa-copyright"></i> 2022
+              <strong>CODEITSTORE</strong> ALL RIGHTS RESERVED
+            </p>
+          </div>
+          <div class="col-md-4 creditCardIcons">
+            <img src="https://shoplineimg.com/assets/footer/card_visa.png" />
+            <img src="https://shoplineimg.com/assets/footer/card_master.png" />
+            <img src="https://shoplineimg.com/assets/footer/card_paypal.png" />
+            <img
+              src="https://shoplineimg.com/assets/footer/card_unionpay.png"
+            />
+            <img src="https://shoplineimg.com/assets/footer/card_linepay.png" />
+            <img
+              src="https://shoplineimg.com/assets/footer/card_tw_711_pay.png"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/script.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
